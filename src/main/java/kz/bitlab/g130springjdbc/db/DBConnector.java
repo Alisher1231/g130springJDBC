@@ -14,9 +14,9 @@ public class DBConnector {
     @Bean
     public Connection connection() throws SQLException {
         return DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5432/postgres?currentSchema=g130",
-                "kuatabylay",
-                "postgres"
+                "jdbc:postgresql://localhost:5432/postgres?currentSchema-g130",
+                "postgres",
+                "12345678trEE"
         );
     }
 }
